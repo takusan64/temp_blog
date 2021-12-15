@@ -21,13 +21,7 @@ export const Header: React.FC = () => {
         <div className={isOpen ? `${styles.menu} ${styles.isOpen}` : styles.menu}>
           <ul className={styles.lists}>
             <li className={styles.list}>
-              <a href="">menu1</a>
-            </li>
-            <li className={styles.list}>
-              <a href="">menu2</a>
-            </li>
-            <li className={styles.list}>
-              <a href="">menu3</a>
+              <a href="">Blog</a>
             </li>
           </ul>
         </div>
